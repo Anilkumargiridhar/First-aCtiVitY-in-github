@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My TODO App</title>
+    <link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="controls">
+            <h1>mY TODO LIST</h1>
+            <p id="p">Enter your TODO</p>
+            <input type="text" id="input"><br>
+            <button type="button" id="add" onclick="addItem()">Add TODO</button><br>
+            <button type="button" id="remove" onclick="removeItem()">Remove done TODO</button>
+        </div>
+        <ul id="list">
+            <li class="mycheck"><label id="text"><input type="checkbox" id="check">Go to Gym</label></li>
+            <li class="mycheck"><label id="text"><input type="checkbox" id="check">Go out for Movie</label></li>
+            <li class="mycheck"><label id="text"><input type="checkbox" id="check">pretend to be a busy person</label></li>
+        </ul>
+    </div>
+
+
+
+    <script src="todo.js"></script>
+</body>
+</html>
